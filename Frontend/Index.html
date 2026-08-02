@@ -1,12 +1,35 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision 20 Cooperative Management System</title>
+    <title>Vision 20 Cooperative - Member Registration</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Vision 20 Cooperative Management System</h1>
-    <p>Software development has officially started.</p>
+
+<h1>Vision 20 Cooperative Management System</h1>
+
+<form action="../Backend/index.php" method="POST">
+
+<h2>Member Registration</h2>
+
+<label>Full Name</label>
+<input type="text" name="fullname" required>
+
+<label>Phone Number</label>
+<input type="tel" name="phone" required>
+
+<label>Email Address</label>
+<input type="email" name="email">
+
+<label>Residential Address</label>
+<textarea name="address"></textarea>
+
+<button type="submit">Register</button>
+
+</form>
+
 </body>
 </html>
